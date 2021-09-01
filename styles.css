@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#poster{
+    background-color: #f25509;
+    width: 500px;
+    height: calc(500px / 18 * 24);
+    /* height: 666px; */
+}
+
+.text{
+    display: inline-block;
+}
+.text--dark{
+    color: rgba(0,0,0,0.75);
+}
+.text--bright{
+    color: #dedfd3;
+}
+.text--small{
+    font-size: 20px;
+    line-height: 4px;
+}
+.text--big{
+    font-size: 112px;
+    line-height: 0;
+}
+
+#text--top{
+    width: 100%;
+    /* border: 10px solid black; */
+    padding-left: 280px;
+}
+#text--middle{
+    width: 100%;
+    padding-left: 20px;
+}
+#text--bottom{
+    width: 100%;
+    margin-left: -12px;
+}
+
+#haus{
+    margin-top: -90px;
+}
